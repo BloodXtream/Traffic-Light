@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.traffic{
+    margin-top: 250px;
+    margin-left: 550px;
+    width: 65px;
+    height: 180px;
+    border: 2px solid black;
+    background-color: #212121;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.circle.red{
+    background-color: red;
+}
+.circle.yellow{
+    background-color: rgb(255, 255, 0);
+}
+.circle.green{
+    background-color: rgb(27, 228, 20);
+}
+
